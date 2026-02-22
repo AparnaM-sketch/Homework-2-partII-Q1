@@ -94,19 +94,19 @@
 
 The program:
 
-1. Asks the user to enter the number of training sentences and then each sentence (must include <s> and </s> tokens).
-
-2. Trains a bigram language model on the entered corpus.
-
-3. Displays the learned unigram counts and bigram counts.
-
-4. Computes the probability of two test sentences using the MLE bigram probabilities:
-
-        <s> I love NLP </s>
-        
-        <s> I love deep learning </s>
-
-5. Prints which sentence the model prefers and explains why.
+      1. Asks the user to enter the number of training sentences and then each sentence (must include <s> and </s> tokens).
+      
+      2. Trains a bigram language model on the entered corpus.
+      
+      3. Displays the learned unigram counts and bigram counts.
+      
+      4. Computes the probability of two test sentences using the MLE bigram probabilities:
+      
+              <s> I love NLP </s>
+              
+              <s> I love deep learning </s>
+      
+      5. Prints which sentence the model prefers and explains why.
 
 The implementation demonstrates the core concepts of n‑gram language modeling: counting, MLE estimation, and sentence probability computation via the chain rule.
 
